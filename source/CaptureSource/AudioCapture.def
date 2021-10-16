@@ -1,0 +1,12 @@
+;===========================================================================
+;  Copyright (c) 2010-2020  Yunfan Technology.  All Rights Reserved.
+;===========================================================================
+
+LIBRARY     AudioCaptureSource.DLL
+
+EXPORTS
+            DllMain                 PRIVATE
+            DllGetClassObject       PRIVATE
+            DllCanUnloadNow         PRIVATE
+            DllRegisterServer       PRIVATE
+            DllUnregisterServer     PRIVATE
